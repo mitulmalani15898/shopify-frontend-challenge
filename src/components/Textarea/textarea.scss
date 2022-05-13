@@ -1,0 +1,13 @@
+@import "style/variables.scss";
+
+.text-area {
+  width: 100%;
+  padding: 8px;
+  border-radius: $border-radius;
+  border: $border-width-md solid $gray-600;
+}
+
+.text-area:focus,
+.text-area:hover {
+  border: $border-width-md solid $black;
+}

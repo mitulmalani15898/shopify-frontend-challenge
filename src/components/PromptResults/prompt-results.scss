@@ -1,0 +1,43 @@
+@import "style/variables.scss";
+
+.results-title {
+  font-family: "Roboto Bold";
+  font-size: 1.2rem;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.prompt-result-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  line-height: 1.3;
+
+  .prompt-result-card-wrapper {
+    border-radius: $border-radius;
+    border: $border-width-sm solid $black;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+
+    .label-value-wrapper {
+      display: flex;
+      margin-bottom: 0.5rem;
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .card-label {
+        flex: 0.1;
+        font-family: "Roboto Bold";
+      }
+      .card-value {
+        flex: 0.9;
+      }
+    }
+  }
+  .prompt-result-card-wrapper:hover {
+    background-color: $gray-300;
+  }
+}

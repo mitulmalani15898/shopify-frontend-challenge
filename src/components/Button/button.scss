@@ -1,0 +1,19 @@
+@import "style/variables.scss";
+
+.button-class {
+  font-size: 1.2rem;
+  line-height: 1;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $black;
+  margin: 0.5rem 0;
+  padding: 0.5rem 2rem;
+  border-radius: $border-radius;
+  cursor: pointer;
+}
+
+.button-class:hover {
+  color: $black;
+  background-color: $white;
+}

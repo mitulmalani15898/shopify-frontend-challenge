@@ -1,0 +1,18 @@
+@import "style/variables.scss";
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $black;
+
+  .header-title {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    color: $white;
+    padding: 10px;
+    text-align: center;
+  }
+}

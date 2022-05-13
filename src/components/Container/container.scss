@@ -1,0 +1,8 @@
+@import "style/variables.scss";
+
+.page-content-container {
+  width: 100%;
+  max-width: $container-width;
+  margin: 2rem auto;
+  padding: 1rem;
+}
