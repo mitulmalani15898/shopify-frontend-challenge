@@ -1,7 +1,11 @@
-import "components/Button/button.scss";
+import "components/Button/styles.scss";
 
-const Button = ({ children }) => {
-  return <button className="button-class">{children}</button>;
+const Button = ({ children, ...restProps }) => {
+  return (
+    <button className="button-class" {...restProps}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

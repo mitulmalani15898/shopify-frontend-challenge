@@ -1,4 +1,4 @@
-import "components/PromptResults/prompt-results.scss";
+import "components/PromptResults/styles.scss";
 
 import data from "data/prompt-repons.js";
 
