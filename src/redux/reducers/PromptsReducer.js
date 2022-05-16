@@ -44,7 +44,7 @@ export default (state = initialState, action) => {
       };
 
     case POST_PROMPT_ERROR:
-      return { ...state, loading: false, error: action.error };
+      return { ...state, loading: false, error: action.error.message };
 
     case RESET_DEFAULT_BLOCK:
       return { ...state, ...block };
