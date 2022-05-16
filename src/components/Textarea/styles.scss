@@ -1,6 +1,7 @@
 @import "style/variables.scss";
 
 .text-area {
+  position: relative;
   width: 100%;
   padding: 8px;
   border-radius: $border-radius;
@@ -10,4 +11,21 @@
 .text-area:focus,
 .text-area:hover {
   border: $border-width-md solid $black;
+}
+
+.text-area-error,
+.text-area-error:focus,
+.text-area-error:hover {
+  border: $border-width-md solid $error !important;
+}
+
+.text-area-error::placeholder {
+  color: $error;
+}
+
+.text-area-error-message {
+  position: absolute;
+  float: right;
+  margin: 0;
+  color: $error;
 }

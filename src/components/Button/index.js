@@ -1,9 +1,9 @@
 import "components/Button/styles.scss";
 
-const Button = ({ children, ...restProps }) => {
+const Button = ({ children, loading = false, ...restProps }) => {
   return (
     <button className="button-class" {...restProps}>
-      {children}
+      {loading ? <div className="button-loader"></div> : children}
     </button>
   );
 };

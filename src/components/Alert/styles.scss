@@ -1,0 +1,9 @@
+@import "style/variables.scss";
+
+.alert-message {
+  padding: 10px;
+  margin-bottom: 1rem;
+  color: $error-text;
+  background-color: $error-background;
+  border-radius: $border-radius;
+}

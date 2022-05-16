@@ -1,21 +1,15 @@
 $container-width: 980px;
 
-//black color
+// black color
 $black: #000000;
 
 // white color
 $white: #ffffff;
 
-// primary color
-$primary: #fab126;
-
-// secondary color
-$secondary: #1a3654;
-$secondary-hover: #003f65;
-$secondary-light: #054d7f;
-
 // Danger colors
-$danger: #f64e60;
+$error: #f64e60;
+$error-background: #f8d7da;
+$error-text: #842029;
 
 // success color
 $success: #20c997;
@@ -27,9 +21,6 @@ $gray-300: #e4e6ef;
 $gray-400: #d1d3e0;
 $gray-500: #b5b5c3;
 $gray-600: #7e8299;
-$gray-700: #5e6278;
-$gray-800: #3f4254;
-$gray-900: #181c32;
 
 // Border settings
 $border-width-sm: 1px;

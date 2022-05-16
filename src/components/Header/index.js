@@ -2,9 +2,9 @@ import "components/Header/styles.scss";
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
-      <div className="header-title">Fun With AI</div>
-    </div>
+    <header className="header-wrapper">
+      <h1 className="header-title">Fun With AI</h1>
+    </header>
   );
 };
 
